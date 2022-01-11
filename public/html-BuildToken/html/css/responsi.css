@@ -1,0 +1,68 @@
+@media screen and (min-width:1650px){
+}
+@media screen and (max-width:1600px){
+    .menu ul li {
+    padding: 5px 20px;}
+
+.help {
+    padding: 25px 40px;}
+}
+
+@media screen and (max-width:1350px){.container{max-width:1200px;}
+}
+
+@media screen and (max-width:1100px){
+a.click-area-btn {
+    font-size: 16px;}
+}
+@media screen and (max-width:992px){
+a.click-area-btn {
+    font-size: 13px;
+}
+}
+@media screen and (max-width:850px){
+a.click-area-btn {
+    font-size: 11px;
+}}
+@media screen and (max-width:767px){
+.main-txt {
+    font-size: 16px;}
+li.breadcrumb-item a, li.breadcrumb-item.active {
+    font-size: 15px;}
+.did-you-know-txt {
+    font-size: 12px;}
+.did-you-know-heading {
+    font-size: 24px;}  
+.did-you-know-wrapper {
+    padding: 20px 40px;
+}
+a.eligibility-cta{font-size: 20px;}
+.main-content-heading {
+    font-size: 16px;}
+.main-content-txt {
+    font-size: 12px;}
+.main-content-txt i{font-size: 21px;}        
+.click-area-heading{font-size: 21px;}
+.main-training-points-inner-dis {
+    font-size: 13px;}
+footer.footer a{font-size: 12px;}
+}
+@media screen and (max-width:600px){
+.blog-header-logo{float: left;width: 100%;}
+.blog-header-logo img{margin: auto;}
+li.breadcrumb-item a, li.breadcrumb-item.active {
+    font-size: 11px;
+}
+a.eligibility-cta {
+    font-size: 13px;
+}
+}
+@media screen and (max-width:410px){
+li.breadcrumb-item a, li.breadcrumb-item.active {
+    font-size: 9px;
+}
+a.click-area-btn {
+    font-size: 9px;
+}
+}
+@media screen and (max-width:390px){}
