@@ -13,7 +13,7 @@ const Home=()=>{
       <div className="step-1">
         <div className="step-content">
           <h2>Step 1</h2>
-          <p><span>test Demo  </span><br/>Tell us the basics about the token you are building.</p>
+          <p><span>test Demo Testa</span><br/>Tell us the basics about the token you are building.</p>
         </div>
         <div className="level">
           <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" ></div>
