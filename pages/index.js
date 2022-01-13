@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import Link from "next/link";
 const Home=()=>{
  const [blockchain,setBlockchain]=useState("");
  const [email,setEmail]=useState("");
@@ -7,13 +7,13 @@ const Home=()=>{
  const [smbol,setSymbol]=useState("");
  const [coinimage,setCoinimage]=useState("");
  const [decimals,setDecimals]=useState("");
-
+ const ROUTE_POST_ID = "/step2";
  return(   
     <content>
       <div className="step-1">
         <div className="step-content">
           <h2>Step 1</h2>
-          <p><span>test Demo Testa</span><br/>Tell us the basics about the token you are building.</p>
+          <p><span>Basic token information 12 </span><br/>Tell us the basics about the token you are building.</p>
         </div>
         <div className="level">
           <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" ></div>
@@ -56,7 +56,9 @@ const Home=()=>{
             <img src="images/coin.png" className="m-auto"/>
           </div>
           <div className="next-btn">
-            <a href="#" className="all-button">Next</a>
+            <div className="all-button">
+          <Link href={{pathname: ROUTE_POST_ID }}>Next </Link>
+          </div>
           </div>
         </div>
       </div>
