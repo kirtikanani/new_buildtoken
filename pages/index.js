@@ -46,7 +46,7 @@ const Home=()=>{
                 <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Choose image..."/>   
                 <img src="images/file-icon.png" className="file-icon"/>                   
               </div>
-              <div claclassNamess="form-group">
+              <div className="form-group">
                 <label for="exampleInputEmail1">Decimals</label><small id="emailHelp" className="form-text text-muted">Insert the decimal precision of your token</small>
                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="8 - 18"/>                      
               </div>
